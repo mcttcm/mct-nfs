@@ -17,7 +17,7 @@ export default function Page() {
 
   return (
     <main className="flex h-screen flex-col items-center p-10 md:p-20 overflow-hidden">
-      <img className="w-[100px] h-auto md:w-[150px] mb-16" src="/nfs.svg" alt="nfs page title" />
+      <img className="w-[100px] h-auto md:w-[150px] mb-16" src="./nfs.svg" alt="nfs page title" />
       {
         daysLeft >= 0 ?
           <div className="w-full flex space-x-1 justify-center mb-8 text-sm">
